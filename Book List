@@ -1,0 +1,8 @@
+#Create a database of favorite books, including ID, NAME, and RATING
+
+CREATE TABLE favoritebooks (id NUMERIC PRIMARY KEY, name TEXT, rating NUMERIC );
+
+INSERT INTO favoritebooks VALUES (1, "Harry Potter" , 5); 
+INSERT INTO favoritebooks VALUES (2, "It Ends With Us" , 4);
+INSERT INTO favoritebooks VALUES (3, "Normal People" , 3);
+SELECT * FROM favoritebooks;
